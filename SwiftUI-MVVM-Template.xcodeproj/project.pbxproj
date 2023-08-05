@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		62C221CC2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C221CB2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift */; };
-		62C221CE2A7E8B9100F334D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C221CD2A7E8B9100F334D4 /* ContentView.swift */; };
 		62C221D02A7E8B9200F334D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C221CF2A7E8B9200F334D4 /* Assets.xcassets */; };
 		62C221D32A7E8B9200F334D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C221D22A7E8B9200F334D4 /* Preview Assets.xcassets */; };
 		62C221D52A7E8B9200F334D4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C221D42A7E8B9200F334D4 /* Persistence.swift */; };
@@ -16,6 +15,14 @@
 		62C221E22A7E8B9200F334D4 /* SwiftUI_MVVM_TemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C221E12A7E8B9200F334D4 /* SwiftUI_MVVM_TemplateTests.swift */; };
 		62C221EC2A7E8B9200F334D4 /* SwiftUI_MVVM_TemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C221EB2A7E8B9200F334D4 /* SwiftUI_MVVM_TemplateUITests.swift */; };
 		62C221EE2A7E8B9200F334D4 /* SwiftUI_MVVM_TemplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C221ED2A7E8B9200F334D4 /* SwiftUI_MVVM_TemplateUITestsLaunchTests.swift */; };
+		62FEB9742A7E9BB300294647 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB9732A7E9BB300294647 /* InitialView.swift */; };
+		62FEB9762A7E9BD700294647 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB9752A7E9BD700294647 /* HomeViewModel.swift */; };
+		62FEB9782A7E9BE100294647 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB9772A7E9BE100294647 /* HomeView.swift */; };
+		62FEB97A2A7E9C1200294647 /* FireBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB9792A7E9C1200294647 /* FireBaseService.swift */; };
+		62FEB97C2A7E9C2100294647 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB97B2A7E9C2100294647 /* Constants.swift */; };
+		62FEB97E2A7E9C2B00294647 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB97D2A7E9C2B00294647 /* StringExtensions.swift */; };
+		62FEB9802A7E9C5A00294647 /* ItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB97F2A7E9C5A00294647 /* ItemProtocol.swift */; };
+		62FEB9822A7E9C6A00294647 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB9812A7E9C6A00294647 /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 /* Begin PBXFileReference section */
 		62C221C82A7E8B9100F334D4 /* SwiftUI-MVVM-Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MVVM-Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C221CB2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVM_TemplateApp.swift; sourceTree = "<group>"; };
-		62C221CD2A7E8B9100F334D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62C221CF2A7E8B9200F334D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62C221D22A7E8B9200F334D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62C221D42A7E8B9200F334D4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +54,14 @@
 		62C221E72A7E8B9200F334D4 /* SwiftUI-MVVM-TemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-MVVM-TemplateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C221EB2A7E8B9200F334D4 /* SwiftUI_MVVM_TemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVM_TemplateUITests.swift; sourceTree = "<group>"; };
 		62C221ED2A7E8B9200F334D4 /* SwiftUI_MVVM_TemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVM_TemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		62FEB9732A7E9BB300294647 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		62FEB9752A7E9BD700294647 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		62FEB9772A7E9BE100294647 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		62FEB9792A7E9C1200294647 /* FireBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseService.swift; sourceTree = "<group>"; };
+		62FEB97B2A7E9C2100294647 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		62FEB97D2A7E9C2B00294647 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		62FEB97F2A7E9C5A00294647 /* ItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProtocol.swift; sourceTree = "<group>"; };
+		62FEB9812A7E9C6A00294647 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		628092852A7E9AB6004F6AE3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		628092862A7E9AC5004F6AE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62FEB9712A7E9B8C00294647 /* AuthView */,
+				62FEB9722A7E9B9C00294647 /* Cells */,
+				62FEB9732A7E9BB300294647 /* InitialView.swift */,
+				62FEB9772A7E9BE100294647 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		628092872A7E9ACB004F6AE3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				62FEB9752A7E9BD700294647 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		628092882A7E9ACF004F6AE3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				62FEB97B2A7E9C2100294647 /* Constants.swift */,
+				62FEB97D2A7E9C2B00294647 /* StringExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6280928A2A7E9ADB004F6AE3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				62FEB9792A7E9C1200294647 /* FireBaseService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6280928B2A7E9AE1004F6AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62FEB9702A7E9B7000294647 /* Protocol */,
+				62FEB9812A7E9C6A00294647 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		62C221BF2A7E8B9100F334D4 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +164,16 @@
 		62C221CA2A7E8B9100F334D4 /* SwiftUI-MVVM-Template */ = {
 			isa = PBXGroup;
 			children = (
-				62C221CB2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift */,
-				62C221CD2A7E8B9100F334D4 /* ContentView.swift */,
-				62C221CF2A7E8B9200F334D4 /* Assets.xcassets */,
-				62C221D42A7E8B9200F334D4 /* Persistence.swift */,
-				62C221D62A7E8B9200F334D4 /* SwiftUI_MVVM_Template.xcdatamodeld */,
+				62C221FA2A7E8F3300F334D4 /* App */,
+				6280928B2A7E9AE1004F6AE3 /* Model */,
+				628092882A7E9ACF004F6AE3 /* Utils */,
+				6280928A2A7E9ADB004F6AE3 /* Service */,
+				628092852A7E9AB6004F6AE3 /* Manager */,
+				628092872A7E9ACB004F6AE3 /* ViewModel */,
+				628092862A7E9AC5004F6AE3 /* View */,
 				62C221D12A7E8B9200F334D4 /* Preview Content */,
+				62C221CF2A7E8B9200F334D4 /* Assets.xcassets */,
+				62C221D62A7E8B9200F334D4 /* SwiftUI_MVVM_Template.xcdatamodeld */,
 			);
 			path = "SwiftUI-MVVM-Template";
 			sourceTree = "<group>";
@@ -131,6 +201,37 @@
 				62C221ED2A7E8B9200F334D4 /* SwiftUI_MVVM_TemplateUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-MVVM-TemplateUITests";
+			sourceTree = "<group>";
+		};
+		62C221FA2A7E8F3300F334D4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				62C221CB2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift */,
+				62C221D42A7E8B9200F334D4 /* Persistence.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		62FEB9702A7E9B7000294647 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				62FEB97F2A7E9C5A00294647 /* ItemProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		62FEB9712A7E9B8C00294647 /* AuthView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AuthView;
+			sourceTree = "<group>";
+		};
+		62FEB9722A7E9B9C00294647 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +365,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				62C221D52A7E8B9200F334D4 /* Persistence.swift in Sources */,
+				62FEB9742A7E9BB300294647 /* InitialView.swift in Sources */,
+				62FEB9802A7E9C5A00294647 /* ItemProtocol.swift in Sources */,
+				62FEB97A2A7E9C1200294647 /* FireBaseService.swift in Sources */,
+				62FEB9822A7E9C6A00294647 /* ItemModel.swift in Sources */,
+				62FEB97E2A7E9C2B00294647 /* StringExtensions.swift in Sources */,
 				62C221D82A7E8B9200F334D4 /* SwiftUI_MVVM_Template.xcdatamodeld in Sources */,
-				62C221CE2A7E8B9100F334D4 /* ContentView.swift in Sources */,
+				62FEB9782A7E9BE100294647 /* HomeView.swift in Sources */,
+				62FEB9762A7E9BD700294647 /* HomeViewModel.swift in Sources */,
 				62C221CC2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift in Sources */,
+				62FEB97C2A7E9C2100294647 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

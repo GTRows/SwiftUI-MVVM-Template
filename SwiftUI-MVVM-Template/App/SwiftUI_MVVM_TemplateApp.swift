@@ -13,8 +13,7 @@ struct SwiftUI_MVVM_TemplateApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            InitialView()
         }
     }
 }
