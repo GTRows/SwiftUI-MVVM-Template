@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+protocol ItemProtocol {
+    var id: String { get }
+    var name: String { get }
+    var description: String { get }
+}

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620D85F82A7EB1540092EFF0 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620D85F72A7EB1540092EFF0 /* AuthView.swift */; };
+		620D85FA2A7EB15C0092EFF0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620D85F92A7EB15C0092EFF0 /* LoginView.swift */; };
+		620D85FC2A7EB16D0092EFF0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620D85FB2A7EB16D0092EFF0 /* SignUpView.swift */; };
+		620D85FE2A7EC2480092EFF0 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620D85FD2A7EC2480092EFF0 /* AlertService.swift */; };
+		620D86002A7EC32E0092EFF0 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620D85FF2A7EC32E0092EFF0 /* AuthViewModel.swift */; };
 		62C221CC2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C221CB2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift */; };
 		62C221D02A7E8B9200F334D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C221CF2A7E8B9200F334D4 /* Assets.xcassets */; };
 		62C221D32A7E8B9200F334D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C221D22A7E8B9200F334D4 /* Preview Assets.xcassets */; };
@@ -43,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620D85F72A7EB1540092EFF0 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		620D85F92A7EB15C0092EFF0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		620D85FB2A7EB16D0092EFF0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		620D85FD2A7EC2480092EFF0 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		620D85FF2A7EC32E0092EFF0 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		62C221C82A7E8B9100F334D4 /* SwiftUI-MVVM-Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MVVM-Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C221CB2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVM_TemplateApp.swift; sourceTree = "<group>"; };
 		62C221CF2A7E8B9200F334D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				62FEB9752A7E9BD700294647 /* HomeViewModel.swift */,
+				620D85FF2A7EC32E0092EFF0 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -128,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				62FEB9792A7E9C1200294647 /* FireBaseService.swift */,
+				620D85FD2A7EC2480092EFF0 /* AlertService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -223,6 +235,9 @@
 		62FEB9712A7E9B8C00294647 /* AuthView */ = {
 			isa = PBXGroup;
 			children = (
+				620D85F72A7EB1540092EFF0 /* AuthView.swift */,
+				620D85F92A7EB15C0092EFF0 /* LoginView.swift */,
+				620D85FB2A7EB16D0092EFF0 /* SignUpView.swift */,
 			);
 			path = AuthView;
 			sourceTree = "<group>";
@@ -366,13 +381,18 @@
 			files = (
 				62C221D52A7E8B9200F334D4 /* Persistence.swift in Sources */,
 				62FEB9742A7E9BB300294647 /* InitialView.swift in Sources */,
+				620D85F82A7EB1540092EFF0 /* AuthView.swift in Sources */,
 				62FEB9802A7E9C5A00294647 /* ItemProtocol.swift in Sources */,
+				620D85FE2A7EC2480092EFF0 /* AlertService.swift in Sources */,
 				62FEB97A2A7E9C1200294647 /* FireBaseService.swift in Sources */,
 				62FEB9822A7E9C6A00294647 /* ItemModel.swift in Sources */,
 				62FEB97E2A7E9C2B00294647 /* StringExtensions.swift in Sources */,
 				62C221D82A7E8B9200F334D4 /* SwiftUI_MVVM_Template.xcdatamodeld in Sources */,
 				62FEB9782A7E9BE100294647 /* HomeView.swift in Sources */,
 				62FEB9762A7E9BD700294647 /* HomeViewModel.swift in Sources */,
+				620D85FC2A7EB16D0092EFF0 /* SignUpView.swift in Sources */,
+				620D86002A7EC32E0092EFF0 /* AuthViewModel.swift in Sources */,
+				620D85FA2A7EB15C0092EFF0 /* LoginView.swift in Sources */,
 				62C221CC2A7E8B9100F334D4 /* SwiftUI_MVVM_TemplateApp.swift in Sources */,
 				62FEB97C2A7E9C2100294647 /* Constants.swift in Sources */,
 			);

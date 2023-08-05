@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct ItemModel: ItemProtocol {
+    var id: String
+    var name: String
+    var description: String
+}

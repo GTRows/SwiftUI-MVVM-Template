@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Constants {
+    static let appName = "My SwiftUI App"
+    static let appVersion = "1.0.0"
+    // ... more constants can be added.
+}
