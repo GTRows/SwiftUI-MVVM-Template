@@ -1,6 +1,6 @@
 # SwiftUI-MVVM-Template
 
-This project is a template for a SwiftUI application following the Model-View-ViewModel (MVVM) architectural pattern.
+This repository is a template for SwiftUI applications following the Model-View-ViewModel (MVVM) architectural pattern.
 
 ## Project Structure
 
@@ -16,13 +16,14 @@ This project is a template for a SwiftUI application following the Model-View-Vi
 - `App`: Contains the main app file (`SwiftUI_MVVM_TemplateApp.swift`) and `Persistence.swift` (for data persistence).
 - `ViewModel`: Contains ViewModel files, including `AuthViewModel.swift` (for handling authentication logic) and `HomeViewModel.swift` (for managing the home view logic).
 
-## Installation
+## Usage
 
-To get started with this project:
+To use this template:
 
-1. Clone the repository.
-2. Open the project in Xcode.
-3. Build and run the project on a simulator or physical device.
+1. Click on the "Use this template" button to create a new repository.
+2. Clone the new repository to your local machine.
+3. Open the project in Xcode.
+4. Customize the project as needed, then build and run it on a simulator or physical device.
 
 ## Requirements
 
